@@ -1,0 +1,7 @@
+.nav-link:not(.nav-link-active) {
+    @apply text-white px-3 hover:text-blue-300 py-2 rounded-md text-sm font-medium;
+}
+
+.nav-link-active {
+    @apply text-blue-500 px-3 bg-gray-900 py-2 rounded-md text-sm font-medium;
+}
